@@ -34,8 +34,8 @@ function App() {
           <div className="container">
             <Sidebar />
             <Route exact path="/">
-              {/* <Home /> */}
-              {user ? <Home /> : <Redirect to="/login" />}
+              { <Home /> }
+              {/* {user ? <Home /> : <Redirect to="/login" />} */}
             </Route>
             <Route exact path="/users">
               <UserList />
